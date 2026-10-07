@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mitya Sudio | AI-assisted visual and video production, in development</title>
+  <meta name="description" content="Mitya Sudio is developing a creative workspace for designers and animators to build their own components, characters and design principles, with editable workflows and AI-assisted automation.">
+  <meta name="theme-color" content="#191c25">
+  <meta property="og:title" content="Mitya Sudio | Your design language. Your studio.">
+  <meta property="og:description" content="A workspace in development for designers and animators. Build your own assets and design principles, keep creative control, and automate repetitive production work.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://mityasudio.tech/">
+  <meta property="og:url" content="https://mityasudio.tech/">
+  <meta property="og:image" content="https://mityasudio.tech/assets/scene-studio-shoot.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mitya.css">
+  <link rel="stylesheet" href="workspace.css">
+  <link rel="stylesheet" href="boxy.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Mitya Sudio, back to top">
+        <img class="brand-mark" src="assets/boxy-logo.svg" width="34" height="34" alt="Mitya Sudio Boxy logo">
+        <span class="brand-word">mitya<span class="brand-sub">sudio</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <a href="#design-ai">Design with Claude</a>
+        <a href="#builder">How it works</a>
+        <a href="#progress">Build journal</a>
+        <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="stage-badge"><span class="dot" aria-hidden="true"></span>Independent software studio · In development</p>
+          <h1 id="hero-title">Your design language.<br>Your <em>studio.</em></h1>
+          <p class="lede">We’re building a workspace for designers and animators to create their own components, characters, and design principles. Keep shaping the work as you go, with AI and automation helping you spend less time on repetitive production.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#outputs">Watch the studio demo ↗</a>
+            <a class="btn btn-ghost" href="#builder">Explore the workflow</a>
+          </div>
+          <ul class="facts" aria-label="Project facts">
+            <li>Self-funded</li>
+            <li>Built in Vietnam</li>
+            <li>Creative direction stays with you</li>
+          </ul>
+        </div>
+        <figure class="hero-shot"><div class="frame-label"><span>SCENE WORKSPACE</span><span>SCENE STUDIO / PROTOTYPE</span></div>
+          <a href="assets/scene-studio-shoot.png" class="zoom" aria-label="Open the full-size Scene Studio screenshot"><img src="assets/scene-studio-shoot.png" width="1600" height="900" alt="Actual Scene Studio prototype showing a courtyard, reusable characters and three saved camera shots."></a>
+          <figcaption><strong>Inside Scene Studio.</strong> Build a set, stage your characters, and frame a sequence. Actual prototype capture, September 2026.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="design-ai" class="section design-ai" aria-labelledby="design-ai-title">
+      <div class="shell design-ai-grid">
+        <div class="design-ai-intro">
+          <p class="eyebrow">Your assets · Your principles · Your decisions</p>
+          <h2 id="design-ai-title">Create a design language.<br>Build with it.</h2>
+          <p>We’re developing Claude-assisted workflows that use your components, characters, references, and design principles as context. Explore the role we intend Claude to play in each kind of work.</p>
+          <p class="design-status">Planned Claude API workflows</p>
+          <p class="note">The tools shown on this site are real prototypes. These connected AI workflows are product direction, not features you can run here today.</p>
+          <a href="#tour">See the current tools ↗</a>
+        </div>
+        <div class="design-actions">
+          <details open><summary><span>01</span>Create components &amp; characters</summary><div><p><strong>You define:</strong> the idea, proportions, visual character, and constraints.</p><p><strong>Claude would help:</strong> propose a part structure and prepare validated requests for tools to build editable artwork.</p><p><strong>You keep control:</strong> change parts, expressions, poses, or the underlying design before reusing it.</p></div></details>
+          <details><summary><span>02</span>Reconstruct from a reference</summary><div><p><strong>You provide:</strong> reference material you have permission to use and the features that matter.</p><p><strong>Claude would help:</strong> interpret parts and their relationships, propose a reconstruction plan, and coordinate supported tools.</p><p><strong>You verify:</strong> structure, visual fidelity, and what needs correction. Automatic reconstruction of arbitrary artwork is not a demonstrated capability.</p></div></details>
+          <details><summary><span>03</span>Design for reuse</summary><div><p><strong>You choose:</strong> what should stay consistent and what may vary.</p><p><strong>Claude would help:</strong> identify reusable parts, propose adjustable properties, and describe constraints for variants.</p><p><strong>You decide:</strong> which principles to keep, extend, or deliberately override.</p></div></details>
+          <details><summary><span>04</span>Compose a new design</summary><div><p><strong>You direct:</strong> the composition, message, and desired result.</p><p><strong>Claude would help:</strong> select from your assets, prepare layout requests, and revise with your design principles as context.</p><p><strong>You refine:</strong> edit the scene directly, add a new perspective, or ask for another iteration.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="builder" class="section builder-section" aria-labelledby="builder-title">
+      <div class="shell">
+        <div class="section-head"><p class="eyebrow">From brief to video</p><h2 id="builder-title">One story. A workspace to make it.</h2><p>Follow a courtyard story through planning, scene building, and a recorded sequence. See where you direct the work and where we plan to bring Claude into the product.</p></div>
+        <p class="builder-notice"><strong>Interactive walkthrough.</strong> Prepared examples and real prototype captures. This page does not call Claude or generate a video.</p>
+        <div class="builder-app" data-builder>
+          <div class="builder-toolbar"><strong>Mitya / Scene workspace</strong><span>Tea courtyard</span><span class="builder-state">Walkthrough</span></div>
+          <div class="builder-layout">
+            <aside class="builder-library" aria-label="Workflow steps"><p class="builder-label">Production steps</p><div class="builder-steps">
+              <button type="button" data-step="0" aria-pressed="true" aria-controls="builder-content">01 / Your brief</button>
+              <button type="button" data-step="1" aria-pressed="false" aria-controls="builder-content">02 / Story &amp; shots</button>
+              <button type="button" data-step="2" aria-pressed="false" aria-controls="builder-content">03 / Build &amp; direct</button>
+              <button type="button" data-step="3" aria-pressed="false" aria-controls="builder-content">04 / Preview &amp; revise</button>
+            </div><div class="builder-kit"><p class="builder-label">Example assets</p><p>Tea courtyard</p><p>Roundy &amp; Boxy</p><p>Reusable scene pieces</p><p>Three camera shots</p></div></aside>
+            <div id="builder-content" class="builder-center"><div class="builder-canvas-bar"><span id="builder-view">Creative brief</span><span>16:9 / visual story</span></div>
+              <div class="builder-canvas">
+                <div id="builder-brief" class="builder-paper"><p class="builder-label">Prepared example brief</p><h3>A little time for tea.</h3><p>Make a short illustrated sequence in a courtyard. Establish the space, bring attention to the tea table, and finish with the two characters together.</p><dl><dt>Audience</dt><dd>Viewers of a creator’s short visual stories</dd><dt>Direction</dt><dd>Warm, simple, easy to follow</dd><dt>Reusable assets</dt><dd>One set, two characters, three shots</dd></dl></div>
+                <div id="builder-plan" class="builder-paper" hidden><p class="builder-label">Illustrative shot plan</p><h3>Give each shot a purpose.</h3><ol><li><strong>Establish the courtyard</strong><p>Show the place and the two characters.</p></li><li><strong>Move toward the table</strong><p>Bring attention to the shared activity.</p></li><li><strong>End together</strong><p>Frame both characters in the same small world.</p></li></ol><p class="builder-small">Prepared to explain the workflow. Not a recorded Claude response or an automatically executed plan.</p></div>
+                <img id="builder-image" src="assets/scene-studio-build.png" width="1600" height="900" alt="Actual Scene Studio prototype showing asset palette, courtyard canvas and property controls" hidden>
+                <video id="builder-video" controls preload="none" playsinline width="1280" height="720" poster="assets/scene-studio-courtyard-poster.png" hidden aria-label="Actual recorded courtyard sequence"><source src="assets/scene-studio-courtyard-sequence.webm" type="video/webm"><a href="assets/scene-studio-courtyard-sequence.webm">Download courtyard sequence</a></video>
+              </div><div class="builder-timeline" aria-label="Example sequence structure"><span>SHOT STRIP</span><span>01 / Establish</span><span>02 / Tea table</span><span>03 / Together</span></div>
+            </div>
+            <aside class="builder-inspector" aria-label="Roles and development status"><p class="builder-label">At this step</p><div aria-live="polite" aria-atomic="true"><h3 id="builder-step-title">Start with your direction</h3><p class="builder-state" id="builder-state">Example brief</p><h4>You</h4><p id="builder-you">Choose the story, audience, visual direction, and reusable assets.</p><h4>Claude’s intended role</h4><p id="builder-claude">Clarify the brief and propose a production plan. In-product API integration is planned.</p><h4>What exists today</h4><p id="builder-today">Assistant-guided authoring happens outside the app. Scene and character tools are experimental prototypes.</p></div><a href="#claude">More about Claude’s role ↗</a></aside>
+          </div><div class="builder-bottom"><span id="builder-position">Step 1 of 4</span><button id="builder-next" type="button">Next: Story &amp; shots →</button></div>
+        </div><noscript><p>JavaScript is needed to switch walkthrough steps. Real screenshots and video are also available below.</p></noscript>
+      </div>
+    </section>
+
+    <section id="outputs" class="section section-dark" aria-labelledby="outputs-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Recorded outputs</p>
+          <h2 id="outputs-title">Made in the studio.</h2>
+          <p>Watch a courtyard scene move through three saved camera shots, then explore artwork made with the production tools.</p>
+        </div>
+        <div class="outputs">
+          <figure class="output output-wide">
+            <video controls preload="none" playsinline width="1280" height="720" poster="assets/scene-studio-courtyard-poster.png" aria-describedby="video-cap">
+              <source src="assets/scene-studio-courtyard-sequence.webm" type="video/webm">
+              <a href="assets/scene-studio-courtyard-sequence.webm">Download the recorded sequence (WebM)</a>
+            </video>
+            <figcaption id="video-cap"><strong>Shot sequence, recorded in Scene Studio.</strong> Three saved shots of the courtyard set played with eased camera moves. 10.5 seconds, 1280 by 720 WebM. A staged sequence, not finished character animation.</figcaption>
+          </figure>
+          <figure class="output">
+            <a href="assets/illustrator-reading-scene.png" class="zoom" aria-label="Open the full-size Illustrator scene"><img src="assets/illustrator-reading-scene.png" width="1920" height="1080" loading="lazy" alt="Vector scene of two people reading on an orange sofa in a blue room with an arched window, lamp, plant, desk and bookshelf."></a>
+            <figcaption><strong>Editable Illustrator scene.</strong> Built by script as a native Illustrator document from reusable components: editable vector paths and named groups. Shown here as a PNG preview.</figcaption>
+          </figure>
+          <figure class="output">
+            <a href="assets/scene-studio-street-export.png" class="zoom" aria-label="Open the full-size Scene Studio export"><img src="assets/scene-studio-street-export.png" width="1920" height="1080" loading="lazy" alt="Street scene with three shop houses labelled Banh Mi, Tap Hoa and Ca Phe, a street lamp, a tree, a plant pot, a pink round character and a blue square character on a bench."></a>
+            <figcaption><strong>Shot export, 1920 by 1080 PNG.</strong> A street set built from kit pieces in Scene Studio, with two characters staged in the shot.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="product" class="section" aria-labelledby="product-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">The product</p>
+          <h2 id="product-title">A studio shaped by the way you design.</h2>
+          <p>Your components, characters, and design decisions give your work its identity. Mitya is being developed so you can build that foundation yourself, keep extending it, and decide how automation should work within it. Each designer’s studio can grow in a different direction.</p>
+        </div>
+        <div class="value-grid">
+          <article class="value">
+            <span class="value-num">01</span>
+            <h3>Create your own building blocks</h3>
+            <p>Build characters, props, and components that express your ideas. Keep refining and reusing them as your visual world grows.</p>
+          </article>
+          <article class="value">
+            <span class="value-num">02</span>
+            <h3>Define your design principles</h3>
+            <p>Bring your choices about shape, proportion, colour, composition, and movement. The goal is for these principles to guide assisted production, with room to change them or make an intentional exception.</p>
+          </article>
+          <article class="value">
+            <span class="value-num">03</span>
+            <h3>Keep the work open to change</h3>
+            <p>Edit a component, adjust a pose, reframe a scene, or take the design in a new direction. Your judgement continues to shape the work throughout production.</p>
+          </article>
+          <article class="value">
+            <span class="value-num">04</span>
+            <h3>Automate the repetitive work</h3>
+            <p>Our aim is to reduce repeated assembly, checking, revisions, and export steps, so more of your time goes into creative decisions. You choose what to automate and what to handle yourself.</p>
+          </article>
+        </div>
+        <p class="note">This is the product direction. The current <a href="#tour">prototypes</a> demonstrate parts of it. A connected workflow with user-defined design principles and Claude API assistance is still being developed.</p>
+      </div>
+    </section>
+
+    <section id="workflows" class="section section-tint" aria-labelledby="workflows-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Workflows</p>
+          <h2 id="workflows-title">Choose how much to automate.</h2>
+          <p>You define the assets, design direction, and review points. Choose how much assistance fits the task, then keep editing or add new principles as your ideas develop. Explore the intended roles for you, Claude, and the production tools.</p>
+        </div>
+
+        <p class="concept-label" role="note"><strong>Workflow preview.</strong> Explore the experience we are developing. These diagrams illustrate planned configurations, not a live production tool.</p>
+
+        <div class="legend" aria-label="Legend">
+          <span class="chip r-you">You</span> direct, review and edit
+          <span class="chip r-claude">Claude</span> proposes and revises
+          <span class="chip r-tools">Tools</span> build, check and render
+        </div>
+
+        <div class="wf" data-wf>
+          <div class="wf-tabs" role="tablist" aria-label="Workflow configurations">
+            <button role="tab" id="tab-assisted" aria-controls="panel-assisted" aria-selected="false" tabindex="-1">Assisted</button>
+            <button role="tab" id="tab-collab" aria-controls="panel-collab" aria-selected="true">Collaborative</button>
+            <button role="tab" id="tab-auto" aria-controls="panel-auto" aria-selected="false" tabindex="-1">Automated <span class="tab-tag">goal</span></button>
+            <button role="tab" id="tab-today" aria-controls="panel-today" aria-selected="false" tabindex="-1">Prototype today</button>
+          </div>
+
+          <div role="tabpanel" id="panel-assisted" aria-labelledby="tab-assisted" class="wf-panel" tabindex="0">
+            <p class="wf-summary">You lead the whole project. AI helps only at the steps you choose.</p>
+            <ol class="stages">
+              <li class="stage"><h3><span>1</span> Story</h3><p class="roles"><span class="chip r-you">You</span><span class="chip r-claude">Claude</span><span class="chip r-tools">Tools</span></p><p>You write the story. Claude suggests beats or shot ideas when you ask. Tools check the plan for missing pieces.</p></li>
+              <li class="stage"><h3><span>2</span> Characters and assets</h3><p class="roles"><span class="chip r-you">You</span><span class="chip r-tools">Tools</span></p><p>You choose and edit characters, props and parts. Tools keep each version reusable.</p></li>
+              <li class="stage"><h3><span>3</span> Scenes</h3><p class="roles"><span class="chip r-you">You</span><span class="chip r-tools">Tools</span></p><p>You compose each scene. Tools handle placement, layering and consistent output.</p></li>
+              <li class="stage"><h3><span>4</span> Review</h3><p class="roles"><span class="chip r-you">You</span></p><p>You review and accept every result yourself.</p></li>
+              <li class="stage"><h3><span>5</span> Production</h3><p class="roles"><span class="chip r-you">You</span><span class="chip r-tools">Tools</span></p><p>You export frames and sequences when you are ready.</p></li>
+            </ol>
+          </div>
+
+          <div role="tabpanel" id="panel-collab" aria-labelledby="tab-collab" class="wf-panel" tabindex="0">
+            <p class="wf-summary">You and Claude work through the project together. You approve each stage before it moves on.</p>
+            <ol class="stages">
+              <li class="stage"><h3><span>1</span> Story</h3><p class="roles"><span class="chip r-you">You</span><span class="chip r-claude">Claude</span><span class="chip r-tools">Tools</span></p><p>You give the idea and direction. Claude drafts the story and shot plan with you. Tools validate it before anything is built.</p></li>
+              <li class="stage"><h3><span>2</span> Characters and assets</h3><p class="roles"><span class="chip r-claude">Claude</span><span class="chip r-you">You</span></p><p>Claude proposes which existing assets fit and lists what is missing. You approve, swap or edit.</p></li>
+              <li class="stage"><h3><span>3</span> Scenes</h3><p class="roles"><span class="chip r-claude">Claude</span><span class="chip r-tools">Tools</span></p><p>Claude prepares structured scene requests. Tools build editable scenes from them.</p></li>
+              <li class="stage"><h3><span>4</span> Review</h3><p class="roles"><span class="chip r-you">You</span><span class="chip r-claude">Claude</span></p><p>You review each stage. Your notes go back to Claude, which revises the plan or the request.</p></li>
+              <li class="stage"><h3><span>5</span> Production</h3><p class="roles"><span class="chip r-tools">Tools</span><span class="chip r-you">You</span></p><p>Tools render the frames and sequences. You sign off.</p></li>
+            </ol>
+          </div>
+
+          <div role="tabpanel" id="panel-auto" aria-labelledby="tab-auto" class="wf-panel" tabindex="0">
+            <p class="wf-summary">For supported kinds of work, the system runs from brief to output. You set the brief and choose the checkpoints.</p>
+            <ol class="stages">
+              <li class="stage"><h3><span>1</span> Story</h3><p class="roles"><span class="chip r-you">You</span><span class="chip r-claude">Claude</span></p><p>You give a brief and constraints. Claude plans the story and shots.</p></li>
+              <li class="stage"><h3><span>2</span> Characters and assets</h3><p class="roles"><span class="chip r-tools">Tools</span></p><p>The system reuses assets you have approved and flags anything missing instead of guessing.</p></li>
+              <li class="stage"><h3><span>3</span> Scenes</h3><p class="roles"><span class="chip r-tools">Tools</span></p><p>Tools assemble scenes automatically, within the scene types the system supports.</p></li>
+              <li class="stage"><h3><span>4</span> Review</h3><p class="roles"><span class="chip r-tools">Tools</span><span class="chip r-you">You</span></p><p>Automatic checks run at every step. You review at the checkpoints you choose.</p></li>
+              <li class="stage"><h3><span>5</span> Production</h3><p class="roles"><span class="chip r-tools">Tools</span><span class="chip r-you">You</span></p><p>Output is rendered and held for your review before release.</p></li>
+            </ol>
+            <p class="wf-caveat">This is the long-term goal for supported workflows. End-to-end automation is not available today.</p>
+          </div>
+
+          <div role="tabpanel" id="panel-today" aria-labelledby="tab-today" class="wf-panel" tabindex="0">
+            <p class="wf-summary">What exists now: separate experimental tools, used internally. They are not yet connected into one product.</p>
+            <ol class="stages">
+              <li class="stage"><h3><span>1</span> Story</h3><p class="roles"><span class="chip r-status">Experimental</span></p><p>A story compiler checks structured story and shot plans and lists what still needs a decision. Stories are drafted in an assistant-guided authoring workflow.</p></li>
+              <li class="stage"><h3><span>2</span> Characters and assets</h3><p class="roles"><span class="chip r-status">Experimental</span></p><p>A character editor for expressions, poses and views, and a component library for browsing exact versions of reusable parts.</p></li>
+              <li class="stage"><h3><span>3</span> Scenes</h3><p class="roles"><span class="chip r-status">Experimental</span></p><p>Scene Studio stages layered shots in the browser. Scripted Adobe Illustrator assembly builds editable vector scenes from components.</p></li>
+              <li class="stage"><h3><span>4</span> Review</h3><p class="roles"><span class="chip r-status">Experimental</span></p><p>Review screens record a person's decisions separately from automatic checks and AI recommendations.</p></li>
+              <li class="stage"><h3><span>5</span> Production</h3><p class="roles"><span class="chip r-status">Experimental</span></p><p>PNG frames, WebM shot sequences and native Illustrator documents. There is no single pipeline from story to finished video yet.</p></li>
+            </ol>
+            <p class="wf-caveat">Claude API integration inside the product is planned, not built. See <a href="#claude">how Claude fits in</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tour" class="section" aria-labelledby="tour-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Prototype tour</p>
+          <h2 id="tour-title">Inside the tools we are building.</h2>
+          <p>These are real screenshots and outputs from tools in development. Each is a separate experimental tool today, not one connected application. Some interfaces are currently in Vietnamese.</p>
+        </div>
+
+        <article class="tour-item">
+          <div class="tour-media">
+            <a href="assets/scene-studio-build.png" class="zoom" aria-label="Open the full-size Scene Studio Build screenshot"><img src="assets/scene-studio-build.png" width="1600" height="900" loading="lazy" alt="Scene Studio in Build mode. A palette of buildings, windows, doors, awnings, roofs and signs on the left. The courtyard set in the middle with a selected house part."></a>
+          </div>
+          <div class="tour-copy">
+            <p class="tag">Scene Studio <span class="status">Experimental</span></p>
+            <h3>Build a set, stage a cast, shoot the shots.</h3>
+            <p>Three modes in one browser workspace. <strong>Build</strong> places kit pieces on back, middle and front planes, and doors, windows and signs attach to the building they are dropped on. <strong>Stage</strong> places characters in each shot. <strong>Shoot</strong> frames a 16:9 camera, times and orders shots, plays the sequence, exports a 1920 by 1080 PNG or records a WebM.</p>
+            <details class="prototype-details"><summary>Prototype details</summary><p><strong>Current limits:</strong> a 16-piece kit, two built-in characters, and sit, wave and place poses that are improvised stand-ins. Screenshot recorded 25 September 2026.</p></details>
+          </div>
+        </article>
+
+        <article class="tour-item tour-flip">
+          <div class="tour-media">
+            <a href="assets/character-editor-boxy.png" class="zoom" aria-label="Open the full-size character editor screenshot"><img src="assets/character-editor-boxy.png" width="1440" height="1000" loading="lazy" alt="Character editor showing Boxy, a blue square character, laughing and holding a lollipop. Square handles on the hands and body can be dragged. Tabs switch between front, side and three-quarter views."></a>
+          </div>
+          <div class="tour-copy">
+            <p class="tag">Character editor <span class="status">Experimental</span></p>
+            <h3>Characters you can pose, not redraw.</h3>
+            <p>Characters are built from rigged parts. Choose an expression, switch between front, side and three-quarter views, and drag hand handles to pose the arms. Drafts, undo and redo keep every change reversible. Shown with Boxy, one of the project's own characters.</p>
+            <details class="prototype-details"><summary>Prototype details</summary><p><strong>Current limits:</strong> interface in Vietnamese. Full animation editing is not available. Screenshot recorded 23 September 2026.</p></details>
+          </div>
+        </article>
+
+        <article class="tour-item">
+          <div class="tour-media">
+            <a href="assets/component-library.png" class="zoom" aria-label="Open the full-size component library screenshot"><img src="assets/component-library.png" width="1360" height="900" loading="lazy" alt="Scene Component Library showing a grid of reusable components such as a wall picture, a cup, a desk lamp, a box, a column and crates, each with an exact version and a candidate status. Search and filters at the top."></a>
+          </div>
+          <div class="tour-copy">
+            <p class="tag">Component library <span class="status">Experimental</span></p>
+            <h3>Every reusable part, with an exact version.</h3>
+            <p>Browse, search and filter reusable scene components, then select the exact version a scene should use. Scenes refer to exact versions, so adding or changing parts in the library does not silently change an existing scene.</p>
+            <details class="prototype-details"><summary>Prototype details</summary><p><strong>Current limits:</strong> read only, and artwork is edited in Illustrator. Components are still candidates, and none has been approved for a production library yet. Screenshot recorded 28 September 2026.</p></details>
+          </div>
+        </article>
+
+        <article class="tour-item tour-flip">
+          <div class="tour-media story-board" aria-label="Development story example: Room under a leaf">
+            <p class="eyebrow">Story sketch · development example</p>
+            <h3>Room under a leaf</h3>
+            <p class="story-intent">A little shelter. A small act of care.</p>
+            <ol class="story-beats">
+              <li><span>01</span><div><strong>Notice</strong><p>A resident notices a visitor shivering outside the leaf.</p></div></li>
+              <li><span>02</span><div><strong>Make room</strong><p>The resident tilts the leaf toward the visitor. Rain wets their own shoulder.</p></div></li>
+            </ol>
+            <p class="story-foot">An excerpt from a structured story draft. The planner checks continuity and identifies decisions before production.</p>
+          </div>
+          <div class="tour-copy">
+            <p class="tag">Story planning <span class="status">Experimental</span></p>
+            <h3>A story plan the tools can check.</h3>
+            <p>An idea becomes a structured story: beats that cause each other, shots, the visible state of every character and object, and the actions that change them. The compiler checks the plan for broken references and continuity errors, then prepares production requests and lists every open decision.</p>
+            <details class="prototype-details"><summary>Prototype details</summary><p><strong>Current limits:</strong> the example story was drafted with AI assistance and has not been accepted as final content. <code>REVIEW_REQUIRED</code> means a person still has to resolve open frames. The compiler does not draw or animate.</p></details>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+
+    <section id="tools" class="section" aria-labelledby="tools-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Creative tool connections</p>
+          <h2 id="tools-title">Working with the tools creators already use.</h2>
+          <p>The aim is to produce files that open and stay editable in professional tools, not to lock work inside one app.</p>
+        </div>
+        <div class="tool-grid">
+          <article class="tool-card">
+            <h3>Adobe Illustrator</h3>
+            <dl class="tool-facts">
+              <div><dt><span class="chip ok">Demonstrated</span> Native output</dt><dd>Scenes are written as native Illustrator documents with editable vector paths, named groups and layers, then exported to PNG.</dd></div>
+              <div><dt><span class="chip ok">Demonstrated</span> Scripted automation</dt><dd>Our tools drive a locally running copy of Illustrator through its scripting interface. Tested with Illustrator 30.8 on Windows.</dd></div>
+              <div><dt><span class="chip exp">Experimental</span> Reading documents</dt><dd>Reading the structure of existing Illustrator documents for reuse is in experimental use.</dd></div>
+              <div><dt><span class="chip plan">Not built</span> Plugin and sync</dt><dd>There is no Illustrator plugin or panel, and no live two-way sync. Edits made by hand are not picked up automatically.</dd></div>
+            </dl>
+          </article>
+          <article class="tool-card">
+            <h3>Browser staging and video</h3>
+            <dl class="tool-facts">
+              <div><dt><span class="chip exp">Experimental</span> Shot staging</dt><dd>Scene Studio runs in Chrome or Edge, with layered planes, depth blur and eased camera moves.</dd></div>
+              <div><dt><span class="chip exp">Experimental</span> Recording</dt><dd>Shot sequences are recorded as WebM video, and single shots export as PNG.</dd></div>
+              <div><dt><span class="chip exp">Experimental</span> Character rendering</dt><dd>Posed characters render to SVG and through Remotion, a code-based video renderer.</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="claude" class="section section-tint" aria-labelledby="claude-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">How Claude fits in</p>
+          <h2 id="claude-title">Where Claude comes in.</h2>
+        </div>
+        <div class="claude-grid">
+          <article class="claude-card">
+            <p class="tag"><span class="chip ok">In use today</span></p>
+            <h3>Building the software</h3>
+            <p>We use Claude Code to develop and test the software, under the founder’s direction. It helps us turn production ideas into working tools.</p>
+          </article>
+          <article class="claude-card">
+            <p class="tag"><span class="chip ok">In use today</span></p>
+            <h3>From ideas to production plans</h3>
+            <p>Our current authoring workflow uses an AI assistant to draft structured stories, with separate tools checking the plan. This takes place outside the product today.</p>
+          </article>
+          <article class="claude-card">
+            <p class="tag"><span class="chip plan">Planned</span></p>
+            <h3>Agentic production workflows</h3>
+            <p>We plan to give Claude the assets, design principles, and constraints you choose as context. It would help plan scenes, coordinate tools through validated requests, and revise from your feedback. You can edit its proposals, change the direction, and decide what to keep.</p>
+          </article>
+        </div>
+        <p class="note">Claude and Claude Code are products of Anthropic. Mitya Sudio is an independent project and is not affiliated with or endorsed by Anthropic.</p>
+      </div>
+    </section>
+
+    <section id="progress" class="section" aria-labelledby="progress-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Development journal</p>
+          <h2 id="progress-title">From working code to creative tools.</h2>
+          <p>Mitya Sudio is an actively developed, self-funded software project. These milestones connect our development work with the prototypes you can see on this page.</p>
+        </div>
+        <div class="claude-grid">
+          <article class="claude-card">
+            <p class="eyebrow"><time datetime="2026-09-25">25 September 2026</time></p>
+            <h3>A workspace for scenes and shots</h3>
+            <p>The Scene Studio prototype brings set building, character staging, and camera shots into a browser interface. <a href="#outputs">Watch the recorded sequence</a>.</p>
+          </article>
+          <article class="claude-card">
+            <p class="eyebrow"><time datetime="2026-09-28">28 September 2026</time></p>
+            <h3>Reusable assets with version history</h3>
+            <p>Component library development added an updated artwork revision. The prototype browser lets us inspect and select exact versions. <a href="#tour">Explore the tools</a>.</p>
+          </article>
+          <article class="claude-card">
+            <p class="eyebrow"><time datetime="2026-10-06">6 October 2026</time></p>
+            <h3>More reusable scene components</h3>
+            <p>Development continued with reusable books, composition recipes, and recorded review evidence, extending the assets available for scene experiments.</p>
+          </article>
+        </div>
+        <p class="note">Development continues from our original SUY Studio project. <a href="https://github.com/sky9876543" target="_blank" rel="noopener noreferrer">View the founder’s GitHub profile</a>. Repository contents and activity visibility depend on their GitHub settings.</p>
+      </div>
+    </section>
+
+    <section id="status" class="section section-tint" aria-labelledby="status-title">
+      <div class="shell status-grid">
+        <div>
+          <p class="eyebrow">Development status</p>
+          <h2 id="status-title">Where things stand.</h2>
+          <dl class="status-list">
+            <div><dt>Stage</dt><dd>In development. Experimental prototypes in internal use.</dd></div>
+            <div><dt>Availability</dt><dd>Not available to the public. No accounts, downloads or sign-ups yet.</dd></div>
+            <div><dt>Business model</dt><dd>We intend to sell Mitya Sudio as software for designers, animators, and creative teams.</dd></div>
+            <div><dt>Pricing and release</dt><dd>Not announced.</dd></div>
+          </dl>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">Questions</h3>
+          <details>
+            <summary>Can I use Mitya Sudio now?</summary>
+            <p>Not yet. The prototypes run locally for internal testing and are not available to download or use online.</p>
+          </details>
+          <details>
+            <summary>Is it fully automatic?</summary>
+            <p>Not today. Complete automation is a goal for the kinds of work the system supports. Today people direct and review the work, and the tools are separate experiments.</p>
+          </details>
+          <details>
+            <summary>Will I need Adobe Illustrator?</summary>
+            <p>The current scene assembly prototype uses Illustrator. Scene Studio and the character editor run in a web browser. How the product will be packaged has not been decided.</p>
+          </details>
+          <details>
+            <summary>Does it make animation?</summary>
+            <p>Today it records staged shot sequences with camera moves, and the experimental character rigs include a walk cycle. Full character animation and finished videos are not available yet.</p>
+          </details>
+          <details>
+            <summary>What happened to SUY Studio?</summary>
+            <p>Mitya Sudio continues the same founder’s SUY Studio project. Keya Studio was an earlier working name. Some prototype screenshots retain the SUY name. It is a self-funded project and is not yet incorporated.</p>
+          </details>
+          <details>
+            <summary>Is there a waitlist?</summary>
+            <p>No. There is no sign-up form. If you are interested, email the founder.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div>
+          <p class="eyebrow">Who is building it</p>
+          <h2 id="contact-title">Meet the founder.</h2>
+          <p class="founder">Tinh Nguyen Trung, Founder</p>
+          <p>Mitya Sudio is an independent, self-funded software project based in Vietnam. Its founder is building creative tools for designers and animators, with planned Claude-assisted workflows that preserve the user’s design principles and creative control.</p>
+          <p>If you design or animate, tell us about the assets you create and the repetitive tasks you would like to automate.</p>
+        </div>
+        <div class="contact-card">
+          <p class="contact-kicker">Contact the founder</p>
+          <a class="contact-mail" href="mailto:contact@mityasudio.tech">contact@mityasudio.tech</a>
+          <p class="contact-note">Contact Mitya Sudio about your creative workflow, the prototypes, or collaboration.</p>
+          <a class="btn btn-primary" href="mailto:contact@mityasudio.tech?subject=Mitya%20Sudio">Tell us about your workflow</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span class="brand-word small">mitya<span class="brand-sub">sudio</span></span>
+      <p>In development. Not yet available. &copy; 2026 Mitya Sudio.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+  <script src="main.js" defer></script>
+  <script src="builder.js" defer></script>
+</body>
+</html>

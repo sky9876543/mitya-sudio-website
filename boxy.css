@@ -1,0 +1,45 @@
+/* Boxy reference: compact toolbars, softly squared panels, restrained blue. */
+:root { --boxy-accent:#086c9b; --boxy-soft:#e6f3f9 }
+.hero { background:#20232b; padding:34px 0 44px }
+.hero-grid { grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr); gap:44px }
+.hero h1 { font-size:clamp(2rem,3.4vw,3.1rem); line-height:1.16 }
+.hero-shot { background:#eeeae4; padding:9px; border-radius:14px }
+.hero-shot img { max-height:480px; object-fit:contain; background:#f4efe8; border-radius:8px }
+.frame-label { padding:3px 4px; font-weight:600 }
+.hero .btn-primary { background:#e6f3f9; color:#16435a }
+.hero .btn-primary:hover { background:#cfe9f5 }
+.hero .dot { background:#19abe5 }
+.hero .lede { max-width:32em }
+.design-ai { background:#f4f3f0 }
+.design-ai-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.25fr); gap:64px; align-items:start }
+.design-ai-intro { max-width:470px }
+.design-ai-intro > p { color:#535864 }
+.design-ai-intro .eyebrow { color:var(--boxy-accent) }
+.design-status { display:inline-block; border:1px solid #ccd8de; background:#edf3f5; border-radius:5px; padding:5px 9px; font-size:11px; margin-top:12px }
+.design-actions { border:1px solid #d8d8d5; border-radius:12px; background:#fff; overflow:hidden }
+.design-actions details + details { border-top:1px solid #e1e2df }
+.design-actions summary { display:flex; gap:15px; align-items:center; padding:20px; cursor:pointer; font-weight:600; list-style:none }
+.design-actions summary::-webkit-details-marker { display:none }
+.design-actions summary::after { content:'+'; margin-left:auto; font-size:18px; color:#646975 }
+.design-actions details[open] summary::after { content:'−' }
+.design-actions summary span { font-size:10px; font-weight:400; color:#777e88 }
+.design-actions details[open] summary { background:var(--boxy-soft); color:#16435a }
+.design-actions details > div { padding:18px 20px 8px 49px; font-size:13px; color:#535864 }
+.design-actions strong { color:#252b35 }
+.builder-steps button[aria-pressed="true"] { background:#252b35; box-shadow:inset 3px 0 #18ade9 }
+.builder-app,.builder-library,.builder-inspector { border-radius:12px }
+.builder-toolbar { border-radius:12px 12px 0 0 }
+.value-num { color:var(--boxy-accent) }
+.tour-media img { border-radius:10px; border:1px solid #dededb }
+.tour-copy .tag { color:var(--boxy-accent) }
+:focus-visible { outline-color:var(--boxy-accent) }
+@media(max-width:900px) { .hero-grid,.design-ai-grid { grid-template-columns:1fr; gap:28px } .hero-shot img { max-height:530px } .design-ai-intro { max-width:700px } }
+@media(max-width:560px) { .hero h1 { font-size:2rem } .hero-shot img { max-height:none } .design-actions summary { padding:16px; font-size:13px; gap:10px } .design-actions details > div { padding:16px 18px 4px } }
+/* User clarification: Boxy belongs in the logo, not the global UI palette. */
+:root { --boxy-accent:#535864; --boxy-soft:#eeeeec }
+.hero .btn-primary { background:#f4f4f2; color:#20232c }
+.hero .btn-primary:hover { background:#dededb }
+.hero .dot { background:#c4c8d2 }
+.design-actions details[open] summary { color:#20232c }
+.builder-steps button[aria-pressed="true"] { box-shadow:none }
+.brand-mark { width:34px; height:34px; flex:none }

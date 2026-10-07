@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Boxy, Mitya Sudio</title>
+  <rect x="7" y="6" width="50" height="50" rx="12" fill="#19AFE8"/>
+  <path d="M19 54v5M45 54v5" stroke="#1173B8" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="23" cy="27" r="3" fill="#191C25"/>
+  <circle cx="41" cy="27" r="3" fill="#191C25"/>
+  <path d="M23 37c2 5 6 7 9 7s7-2 9-7" stroke="#191C25" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
